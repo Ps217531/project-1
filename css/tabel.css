@@ -1,35 +1,32 @@
-body {
-    margin: auto;
-    margin-right: 10px;
-    font-family: Arial, Helvetica;
-    color: #444;
-    background-color: white;
-    position: absolute;
-    
-    
-  
-}
-
-
-
-
 img {
     width: 150px;
+    transition: width 0.5s;
+}
+
+img:hover {
+    width: 170px;
+    transition: width 0.5s;
 }
 
 table {
-   
     margin-bottom: 20px;
-    width: 100%;
+    width: 50%;
+    max-width: 800px;
+    font-family: Arial, Helvetica;
+    color: #444;
 }
 
 td {
     vertical-align: top;
-
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 0;
+    border-bottom-width: 0.2mm;
+    padding: 20px;
 }
 
 p {
-    text-align: center;
+    text-align: left;
 }
 
 h3 {

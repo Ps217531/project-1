@@ -1,33 +1,24 @@
+body {
+    font-family: Arial, Helvetica;
+    color: #444;
+    background-color: white;
+    margin: 0px;
+}
 
-    body {
-    margin-left: 50px;
+.midden-stuk {
+    width: 95%;
+    max-width: 800px;
+    text-align: left;
+}
 
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-family: Arial, Helvetica;
-        color: #444;
-        background-color: white;
-        max-width: 800px;
-        
-        
-         
-    }
-        @media screen and (max-width: 800px){
-        body{
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-    }
-
-
-img{
+img {
     width: 100%;
 }
+
 footer {
     font-size: 80%;
 }
-.levervoorwaarden{
+
+.levervoorwaarden {
     float: right;
 }
-
