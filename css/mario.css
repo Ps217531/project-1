@@ -22,3 +22,22 @@ footer {
 .levervoorwaarden {
     float: right;
 }
+
+table {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+    color: #444;
+}
+th, td, tr {
+    
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 0;
+    border-bottom-width: 0.2mm;
+    padding: 10px;
+}
+input{
+    width: 90px;
+}
+
