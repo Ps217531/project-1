@@ -41,3 +41,36 @@
   background-color: #4CAF50;
   color: white;
 }
+
+
+
+/* style van personeel */
+table {
+
+
+  width: 100%;
+  max-width: 800px;
+  font-family: Arial, Helvetica;
+  color: #444;
+}
+ tr, th{
+  
+  padding: 3px;
+
+  border-color: gainsboro;
+  border-width: 0;
+  
+}
+td{
+  border-width: 0;
+  padding: 3px;
+
+}
+input{
+  width: 125px;
+  
+}
+span{
+  font-weight: lighter;
+  font-size: small;
+}
