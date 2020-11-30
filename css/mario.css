@@ -17,6 +17,8 @@ img {
 
 footer {
     font-size: 80%;
+    position: relative;
+    margin-top:50px ;
 }
 
 .levervoorwaarden {
@@ -28,6 +30,7 @@ table {
     width: 100%;
     max-width: 800px;
     color: #444;
+    border-spacing: 0;
 }
 th, td, tr {
     

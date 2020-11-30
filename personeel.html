@@ -4,6 +4,7 @@
 <head>
 
     <link rel="stylesheet" href="css/mario.css">
+    <script src="java.js"></script>
  
    <link rel="stylesheet" href="css/menu.css">
     <meta name="Robots" content="All">
@@ -14,23 +15,27 @@
     <meta name="keywords" content="pizza, pasta, cursus, workshop">
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
     <title>Login</title>
 </head>
 
-<body>
+<body style="background-color: beige">
     <center>
         <div class="midden-stuk">
             <div class="topnav">
-                <a href="index.html">Home</a>
+                <a class="active" href="index.html">Home</a>
                 <a href="pizzas.html">Pizza's</a>
                 <a href="pastas.html">Pasta's</a>
                 <a href="bestel.html">Bestellen</a>
                 <a href="cursus.html">Cursus</a>
                 <a href="overons.html">Over ons</a>
-                <a class="active" href="login.html">Login</a>
+                <a href="login.html">Login</a>
             </div>
-
+<h2 style="color: red;">Personeelspagina</h2>
+<p>Berkekenen van de kostprijs van de pizza
+    <br> <br>
+    Let op, een pizza van 35 cm is 1,96 keer zo groot als de pizza van 25cm.
+</p>
             <table>
                 <tr>
                     <th>Ingredient</th>
@@ -40,82 +45,85 @@
                     <th>Pizza <br> (35 centimeter)</th>
                 </tr>
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs1" type="number"></td>
+                    <td><input id="nodig1" type="number"></td>
+                    <td><input id="pizzaklein1" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot1" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs2" type="number"></td>
+                    <td><input id="nodig2" type="number"></td>
+                    <td><input id="pizzaklein2" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot2" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs3" type="number"></td>
+                    <td><input id="nodig3" type="number"></td>
+                    <td><input id="pizzaklein3" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot3" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs4" type="number"></td>
+                    <td><input id="nodig4" type="number"></td>
+                    <td><input id="pizzaklein4" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot4" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs5" type="number"></td>
+                    <td><input id="nodig5" type="number"></td>
+                    <td><input id="pizzaklein5" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot5" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs6" type="number"></td>
+                    <td><input id="nodig6" type="number"></td>
+                    <td><input id="pizzaklein6" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot6" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs7" type="number"></td>
+                    <td><input id="nodig7" type="number"></td>
+                    <td><input id="pizzaklein7" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot7" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
-                    <td><input style="width: 125px;" type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input  id="kiloprijs8" type="number"></td>
+                    <td><input id="nodig8" type="number"></td>
+                    <td><input id="pizzaklein8" type="number" readonly="true"></td>
+                    <td><input id="pizzagroot8" type="number" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td> <input placeholder="Kostprijs pizza 25cm" type="text" value=""></td>
+                    <td> <input placeholder="Kostprijs pizza 25cm" id="totaalklein" type="text" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td> <input placeholder="Kostprijs pizza 35cm" type="text" value=""></td>
+                    <td> <input placeholder="Kostprijs pizza 35cm" id="totaalgroot" type="text" readonly="true"></td>
                 </tr>
 
                 <tr>
-                    <td><input type="button" value="Bereken Prijs"></td>
+                    <td><button onclick="bereken()">Bereken Prijs</button></td>
                 </tr>
             </table>
-
+            <footer>
+                <p>ⓒ2020-2025 Mario Bressanone <span class="levervoorwaarden"> <a href="alv.html">Levervoorwaarden</a>
+                    </span></p>
+            </footer>
         </div>
 
     </center>

@@ -46,8 +46,7 @@
 
 /* style van personeel */
 table {
-
-
+  border-spacing: 5px;
   width: 100%;
   max-width: 800px;
   font-family: Arial, Helvetica;
@@ -55,8 +54,7 @@ table {
 }
  tr, th{
   
-  padding: 3px;
-
+  padding: 1px;
   border-color: gainsboro;
   border-width: 0;
   
@@ -64,10 +62,11 @@ table {
 td{
   border-width: 0;
   padding: 3px;
+  margin: 3px;
 
 }
 input{
-  width: 125px;
+  width: 100%;
   
 }
 span{
