@@ -1,39 +1,35 @@
-function btInloggen(){
-   var gebruikersnaam = document.getElementById("gebruikersnaam").value;
+function btInloggen() {
+    var gebruikersnaam = document.getElementById("gebruikersnaam").value;
     var wachtwoord = document.getElementById("wachtwoord").value;
 
-    if(gebruikersnaam == "1" && wachtwoord == "1")
-    {
-        alert("login succeed")
+    if (gebruikersnaam == "1" && wachtwoord == "1") {
+        alert("ingelogd")
         window.location.href = "personeel.html";
-     
+
     }
-    else{
-        alert("something went wrong")
+    else {
+        alert("probeer een andere gebruikersnaam of wachtwoord. ")
     }
 }
 
-function bereken(){
-    var totaalPrijs = 0;
-    var nodig;
+function bereken() {
+    var totaalPrijs = 0;// variable voor de totaalprijs
+    var nodig;// 
     var totaalKleinePizza;
-    for (var i = 1; i <= 8; i++)
-    {
-        var prijsPerKilo = +(document.getElementById("kiloprijs" + i).value);
-        var nodig = +(document.getElementById("nodig" + i).value);
-        
-        if (prijsPerKilo != null)
-        {
+    for (var i = 1; i < 9; i++) {
+        var prijsPerKilo = (document.getElementById("kiloprijs" + i).value);
+        var nodig = (document.getElementById("nodig" + i).value);
+
+        if (prijsPerKilo != null) {
             parseFloat(prijsPerKilo);
             parseFloat(nodig);
         }
-        else
-        {
+        else {
             totaalPrijs = 0;
             nodig = 0;
         }
 
-        totaalKleinePizza = (nodig / 100) * prijsPerKilo;
+        totaalKleinePizza = (nodig / 1000) * prijsPerKilo;
         document.getElementById("pizzaklein" + i).value = totaalKleinePizza.toFixed(2);
         document.getElementById("pizzagroot" + i).value = (totaalKleinePizza * 1.96).toFixed(2);
         totaalPrijs = totaalPrijs + totaalKleinePizza;
