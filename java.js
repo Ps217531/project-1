@@ -13,8 +13,8 @@ function btInloggen() {
 }
 
 function bereken() {
-    var totaalPrijs = 0;// variable voor de totaalprijs
-    var nodig;// 
+    var totaalPrijs = 0;
+    var nodig;
     var totaalKleinePizza;
     for (var i = 1; i < 9; i++) {
         var prijsPerKilo = (document.getElementById("kiloprijs" + i).value);
@@ -33,11 +33,11 @@ function bereken() {
         document.getElementById("pizzaklein" + i).value = totaalKleinePizza.toFixed(2);
         document.getElementById("pizzagroot" + i).value = (totaalKleinePizza * 1.96).toFixed(2);
         totaalPrijs = totaalPrijs + totaalKleinePizza;
-    }
 
+    }
     document.getElementById("totaalklein").value = totaalPrijs.toFixed(2);
     document.getElementById("totaalgroot").value = (totaalPrijs * 1.96).toFixed(2);
-
 }
+
 
 
